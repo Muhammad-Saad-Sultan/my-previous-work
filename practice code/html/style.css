@@ -1,0 +1,46 @@
+body 
+{
+
+    font-family: Arial, sans-serif;
+
+}
+
+.player 
+{
+
+    text-align: center;
+
+    margin-top: 50px;
+
+}
+
+.player-controls button 
+{
+
+    font-size: 16px;
+
+    margin: 10px;
+
+    padding: 5px 10px;
+
+    cursor: pointer;
+
+}
+
+#volume 
+{
+
+    width: 100px;
+
+}
+
+.song-info 
+{
+
+    margin-top: 20px;
+
+}
+
+
+
+
