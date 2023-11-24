@@ -21,7 +21,7 @@ class Car
 int main()
 {
 
-	// Declare an object of class geeks
+	// Declare an object of class Car
 	int num = 3;
 	Car obj[num];
 

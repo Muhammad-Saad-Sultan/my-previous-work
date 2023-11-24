@@ -1,0 +1,9 @@
+Candidate	Votes Received	% of Total Votes
+10005		5000			25.91 %
+20006		4000			20.73 %
+30007		6000			31.09 %
+40008		2500			12.95 %
+80009		1800			9.326 %
+
+Total Votes are : 19300
+Winner of Election is: 30007, 6000, 31.09 %
