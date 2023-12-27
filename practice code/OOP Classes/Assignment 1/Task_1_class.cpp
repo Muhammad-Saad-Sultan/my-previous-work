@@ -6,7 +6,11 @@ using namespace std;
 double UNIT_COST;
 double Tax;
 
-ElectricityBoard::ElectricityBoard() : userName(nullptr), unitsConsumed(0.0) {}
+ElectricityBoard::ElectricityBoard()
+{
+    userName = nullptr; 
+    unitsConsumed = 0.0; 
+}
 
 void ElectricityBoard::setDetails(const char* name, double units)
 {

@@ -5,8 +5,11 @@ using namespace std;
 
 // Constructor
 AccountManagement::AccountManagement(char *accountTitle, long accountNumber, char accountType, double balance)
-    : accountNumber(accountNumber), accountType(accountType), balance(balance)
 {
+    this->accountNumber = accountNumber; 
+    this->accountType = accountType; 
+    this->balance = balance;
+
     // Allocate memory for accountTitle and copy the input string
     int titleLength = 0;
     while (accountTitle[titleLength] != '\0')
