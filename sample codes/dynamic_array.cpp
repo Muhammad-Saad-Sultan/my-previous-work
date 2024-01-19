@@ -204,11 +204,12 @@ using namespace std;
 int main()
 {
     int count = 0;
+    int spaces = 0;
 
-    char * arr = new char [50];
+    char *arr = new char[50];
 
     cout << "Enter a sentence: " << endl;
-    cin.getline(arr,50);
+    cin.getline(arr, 50);
 
     cout << endl;
 
@@ -217,14 +218,23 @@ int main()
 
     cout << endl;
 
-    for (int i=0 ; arr[i] != '\0' ; i++)
+    for (int i = 0; arr[i] != '\0'; i++)
     {
         count++;
     }
 
     cout << "Total length of array is: " << count << endl;
 
-    
+    // count = 0;
 
-return 0;
+    for (int i = 0; i < count; i++)
+    {
+        if (arr[i] ==  ' ')
+        {
+            spaces++;
+        }
+    }
+
+    cout << "No. of words in entered sentence is: " << spaces + 1 << endl;
+    return 0;
 }

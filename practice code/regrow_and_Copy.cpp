@@ -28,11 +28,11 @@ int main()
     
     for (int i=0; i < n; i++)
     {
-         cin >> num;
+        cin >> num;
 
-         arr = regrow (arr, size, num);
+        arr = regrow (arr, size, num);
 
-         size++;
+        size++;
     }
 
     cout << "Regrown Array is:" << endl;

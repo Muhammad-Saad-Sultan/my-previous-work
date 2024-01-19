@@ -14,11 +14,10 @@ int main()
         for(int i=1; i<=n; i++)
         {
             cout << i << endl;
-            //cout << "\t";
         }
-            //cout << endl;
-            cout << "Enter a number to print counting: " << endl;
-            cin >> n;
+        
+        cout << "Enter a number to print counting: " << endl;
+        cin >> n;
     }
 return 0;
 }
